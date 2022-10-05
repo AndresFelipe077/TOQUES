@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TOQUES</string>
+    <string name="numerosPrimerFila">7</string>
+    <string name="tituloTablas">VAMOS APRENDER LAS TABLAS DE MULTIPLICAR</string>
+    <string name="tituloDividir">APRENDAMOS A DIVIDIR</string>
+    <string name="dividido">dividido</string>
+    <string name="textSplash">APRENDER INTERACTUANDO</string>
+    <string name="divisiones">DIVISION</string>
+    <string name="numeros">numeros</string>
+    <string name="abecedario">abecedario</string>
+    <string name="sumas">sumas</string>
+    <string name="restas">restas</string>
+    <string name="multiplicaciones">multiplicaciones</string>
+    <string name="imagen">imagen</string>
+
+
+    <color name="negro">#000000</color>
+    <color name="amarillo">#FFFF00</color>
+    <color name="azul">#0000FF</color>
+    <color name="rojo">#FF0000</color>
+    <color name="naranja">#FF8200</color>
+    <color name="verde">#24FF00</color>
+    <color name="gris">#988C8C</color>
+    <color name="azulclaro">#00FFCB</color>
+
+</resources>

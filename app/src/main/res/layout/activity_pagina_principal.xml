@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="apps.educacion.numeros.paginaPrincipal"
+    android:background="@color/black"
+    tools:ignore="MissingConstraints"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fuente"
+                    android:gravity="center"
+                    android:text="¡APRENDE CON TOQUES!"
+                    android:textColor="#5AFF01"
+                    android:textSize="40sp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/aprenderNumeros"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/numeros"
+                    android:src="@drawable/numerospaginaprincipal_icon"
+                    app:civ_border_color="#37F800"
+                    app:civ_border_width="3dp"
+                    android:layout_marginTop="40dp"/>
+
+
+                <TextView
+                    android:id="@+id/numeros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fuente"
+
+                    android:gravity="center"
+                    android:text="NÚMEROS"
+                    android:textColor="@color/white"
+                    android:textSize="50sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/aprenderAbecedario"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/abecedario"
+                    android:src="@drawable/abecedariopaginaprincipal_icon"
+                    app:civ_border_color="#37F800"
+                    app:civ_border_width="3dp" />
+
+                <TextView
+                    android:id="@+id/abecedario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fuente"
+
+                    android:gravity="center"
+                    android:text="ABECEDARIO"
+                    android:textColor="@color/white"
+                    android:textSize="48sp" />
+
+            </LinearLayout>
+            <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/aprenderSumas"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/sumapaginaprincipal_icon"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#37F800"
+                    android:contentDescription="@string/sumas"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SUMAS"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/fuente"
+                    android:id="@+id/sumar"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>-->
+            <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                >
+
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/aprenderRestas"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/restapaginaprincipal_icon"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#37F800"
+                    android:contentDescription="@string/restas"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fuente"
+                    android:text="RESTAS"
+                    android:textColor="@color/white"
+                    android:id="@+id/restas"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>-->
+            <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/aprenderMultiplicaciones"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/multiplicacionpaginaprincipal_icon"
+                    app:civ_border_width="3dp"
+                    app:civ_border_color="#37F800"
+                    android:contentDescription="@string/multiplicaciones"
+                    />
+
+
+                <TextView
+                    android:id="@+id/multiplicaciones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fuente"
+                    android:text="MULTIPLICACIONES"
+                    android:textColor="@color/white"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>-->
+
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                >
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/aprenderDivisiones"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/divisiones"
+                    android:src="@drawable/dividirpaginaprincipal_icon"
+                    app:civ_border_color="#37F800"
+                    app:civ_border_width="3dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DIVISIONES"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="0.5dp"
+                    android:layout_marginEnd="0.5dp"
+                    android:fontFamily="@font/fuente"
+                    android:id="@+id/divisiones"
+                    android:textSize="48sp"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textoPiedePantalla"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fuente"
+                    android:gravity="center"
+                    android:text="APRENDE DE LA MEJOR MANERA"
+                    android:textColor="@color/amarillo"
+                    android:textSize="36sp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circlePro"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@string/imagen"
+                    android:src="@drawable/imgninopaginaprincipal_icon"
+                    app:civ_border_color="#37F800"
+                    app:civ_border_width="5dp" />
+
+
+                <Button
+                    android:id="@+id/btnSalir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/amarillo"
+                    android:fontFamily="@font/fuente"
+                    android:text="SALIR"
+                    android:textColor="@color/azul"
+                    android:textSize="20sp"
+                    app:cornerRadius="50dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

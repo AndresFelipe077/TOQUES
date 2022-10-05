@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="apps.educacion.numeros.aprendersumas.suma3"
+    android:orientation="vertical"
+    android:background="#40FFD2"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bordes_redondos6"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="APRENDAMOS A SUMAR"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:fontFamily="@font/fuente"
+                android:textColor="#F1B606"
+                android:id="@+id/textoTitulo"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/num1linea1"
+                    android:text="3"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/mas1linea1"
+                    android:text="+"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/num2linea1"
+                    android:text="1"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="#FFFF00"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+                <Button
+                    android:id="@+id/igual1linea1"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/fuente"
+                    android:text="="
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/numTotal1linea1"
+                    android:text="4"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/white"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/num1linea2"
+                    android:text="3"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/mas1linea2"
+                    android:text="+"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/num2linea2"
+                    android:text="2"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="#FFFF00"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/igual1linea2"
+                    android:text="="
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/black"
+                    />
+
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/numTotal1linea2"
+                    android:text="5"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/num1linea3"
+                    android:text="3"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/mas1linea3"
+                    android:text="+"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/num2linar3"
+                    android:text="3"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="#FFFF00"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/igual1linea3"
+                    android:text="="
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/black"
+                    />
+
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/numTotallinea3"
+                    android:text="6"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/white"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+
+                >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/num1linea4"
+                    android:text="3"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/mas1linea4"
+                    android:text="+"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/num2linea4"
+                    android:text="4"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="#FFFF00"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/igual1linea4"
+                    android:text="="
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/black"
+                    />
+
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/numTotallinea4"
+                    android:text="7"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/white"
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/num1linea5"
+                    android:text="3"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+                <Button
+                    android:id="@+id/mas1linea5"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/fuente"
+                    android:text="+"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/num2linar5"
+                    android:text="5"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="#FFFF00"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/igual1linea5"
+                    android:text="="
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/fuente"
+                    android:textColor="@color/black"
+                    />
+
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/numTotallinea5"
+                    android:text="8"
+                    android:textSize="30dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="@font/fuente"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/white"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnRegresar"
+                    android:text="regresar"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:cornerRadius="50dp"
+                    android:fontFamily="@font/fuente"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnprincipal"
+                    android:text="Página principal"
+                    android:gravity="center"
+                    android:fontFamily="@font/fuente"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cornerRadius="50dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#02FFC4"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/reiniciar"
+                    android:text="REINICIAR"
+                    android:fontFamily="@font/fuente"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    app:cornerRadius="50dp"
+                    />
+
+            </LinearLayout>
+
+            <!--<com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="ca-app-pub-4843976573058797/4054807845"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="10dp">
+            </com.google.android.gms.ads.AdView>-->
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

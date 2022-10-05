@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "327924496829",
+    "project_id": "toques-eff36",
+    "storage_bucket": "toques-eff36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327924496829:android:c8a0f7f7c64db069733ad4",
+        "android_client_info": {
+          "package_name": "apps.educacion.numeros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327924496829-df0553oli34puqbtbc7a0tcu29ad0aea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlmBn3gJVs7wPymPek5XIhx3wk9iTJDSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327924496829-df0553oli34puqbtbc7a0tcu29ad0aea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

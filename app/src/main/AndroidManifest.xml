@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.numeros">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/imagepro"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/imagepro_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Numeros">
+        <activity
+            android:name="apps.educacion.numeros.moverobjectos.moverObjecto"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprenderadividir.dividir3"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprenderadividir.dividir2"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprenderadividir.dividir1"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprenderarestar.resta3"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprenderarestar.resta2"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprenderarestar.resta1"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.tablasdemultiplicar.tabla9"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.tablasdemultiplicar.tabla8"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.tablasdemultiplicar.tabla7"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.tablasdemultiplicar.tabla6"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.tablasdemultiplicar.tabla5"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.tablasdemultiplicar.tabla4"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.tablasdemultiplicar.tabla3"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.tablasdemultiplicar.tabla2"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.abecedario.abecedario"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.paginaPrincipal"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendersumas.suma3"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendersumas.suma2"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendersumas.suma"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.splashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="apps.educacion.numeros.aprendernumeros.Num91num100Activity"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendernumeros.Num81num90Activity"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendernumeros.Num71num80Activity"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendernumeros.Num61num70Activity"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendernumeros.Num51num60Activity"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendernumeros.Num41num50Activity"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendernumeros.Num31Num40Activity"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendernumeros.Num21_num30"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendernumeros.Num11Num20Activity"
+            android:exported="false" />
+        <activity
+            android:name="apps.educacion.numeros.aprendernumeros.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- es el original android:value="ca-app-pub-4843976573058797/4054807845" -->
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4843976573058797~6593997814" />
+    </application>
+
+</manifest>

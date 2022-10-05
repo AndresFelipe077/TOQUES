@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/border_redondos.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos10.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos11.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos12.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos13.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos14.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos15.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos2.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos3.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos4.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos5.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos6.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos7.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos8.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/bordes_redondos9.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/encabezado.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/drawable/medio.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_abecedario.xml" value="0.25" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_dividir1.xml" value="0.25" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_dividir2.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_dividir3.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_mover_objecto.xml" value="0.15726495726495726" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_num21_num30.xml" value="0.1921875" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_pagina_principal.xml" value="0.18" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_resta1.xml" value="0.2" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_resta2.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_resta3.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_suma.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_suma2.xml" value="0.31179775280898875" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_suma3.xml" value="0.21" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_tabla2.xml" value="0.18" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_tabla3.xml" value="0.18" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_tabla4.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_tabla5.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_tabla6.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_tabla7.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_tabla8.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/activity_tabla9.xml" value="0.22" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/num11_num20.xml" value="0.25" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/num31_num40.xml" value="0.1921875" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/num41num50.xml" value="0.1921875" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/num51num60.xml" value="0.1921875" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/num61num70.xml" value="0.1921875" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/num71num80.xml" value="0.1921875" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/num81num90.xml" value="0.1921875" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/layout/num91num100.xml" value="0.22" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/mipmap-anydpi-v26/imageIcon.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/AndresFelipe/AndroidStudioProjects/numeros/app/src/main/res/mipmap-anydpi-v26/imageIcon_round.xml" value="0.1046875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
